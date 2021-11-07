@@ -25,7 +25,7 @@ Sample Input:
 Sample Output:
 Sorry
  */
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Main {
 
@@ -40,4 +40,23 @@ public class Main {
            System.out.println("Sorry");
        }
    }
+}*/
+
+//------------You can use more than one if else statement inside if or else statement
+import java.util.Scanner;
+class userAge{
+public static void main(String[] args){
+    Scanner putAge = new Scanner(System.in);
+    int age = putAge.nextInt();
+    //the many if statements
+    if(age>0){
+        if(age>16){
+            System.out.println("Welcome");
+        }else{
+            System.out.println("Too young");
+        }
+    }else{
+        System.out.println("Error!!");
+        }
+    }
 }

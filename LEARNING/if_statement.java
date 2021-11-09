@@ -43,20 +43,18 @@ public class Main {
 }*/
 
 //------------You can use more than one if else statement inside if or else statement
-import java.util.Scanner;
-class userAge{
-public static void main(String[] args){
-    Scanner putAge = new Scanner(System.in);
-    int age = putAge.nextInt();
-    //the many if statements
-    if(age>0){
-        if(age>16){
-            System.out.println("Welcome");
-        }else{
-            System.out.println("Too young");
-        }
-    }else{
-        System.out.println("Error!!");
-        }
-    }
-}
+//***********Using the if else() statement******************
+// public class userAge{
+//     public static void main(String[] args){
+//         int age =27;
+//         if(age <=17){
+//             System.out.println("Not a real Age!!!");
+//         }else if(age <=26){
+//             System.out.println("You are elligible");
+//         }else if(age >=27){
+//             System.out.println("You passed the age limit");
+//         }else{
+//             System.out.println("Error");
+//         }
+//     }
+// }

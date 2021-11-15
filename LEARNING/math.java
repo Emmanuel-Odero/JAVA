@@ -81,7 +81,7 @@ The total amount of spent minutes is 114, which is equal to 1 hour (the first ou
 //     }
 // }
 import java.util.Scanner;
-public class myVariable{
+public class math{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int days = scanner.nextInt();

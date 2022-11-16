@@ -1,4 +1,4 @@
-public class TryConst
+public class TryConst{
     String username;
     int age;
 
@@ -6,7 +6,7 @@ public class TryConst
         return username;
     }
     public void setUsername(String username){
-        if (!username.isEmpty())
+        if (!username.isEmpty());
     }
 
     public TryConst(){}
@@ -18,9 +18,9 @@ public class TryConst
 
     public TryConst(String username, int age){
         this.username = username;
-        this.age = 
     }
 
     public static void main(String[] args){
         
+    }
     }
